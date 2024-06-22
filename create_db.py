@@ -38,7 +38,7 @@ def create_directory_loader(file_type, directory_path):
     )
 
 # Create DirectoryLoader instances for each file type
-pdf_loader = create_directory_loader('.pdf', 'data/pdf')
+pdf_loader = create_directory_loader('.pdf', './pdf')
 # xml_loader = create_directory_loader('.xml', '/path/to/your/directory')
 # csv_loader = create_directory_loader('.csv', '/path/to/your/directory')
 
